@@ -3,7 +3,7 @@
 
 <img align="right" alt="GIF" src="https://raw.githubusercontent.com/rahul-jha98/rahul-jha98/main/techstack.gif" width="360px"/>
 
-#### Lesson 1 / [Homework](https://github.com/Mybono/web_test_automation_java/blob/main/lesson1.md) / [ReadMe](https://docs.google.com/document/d/1qQQpqAhP8xGnzGrPBHibUkg8CAS1ZKZ3m5uQBN_DXBU/edit#) / [Презентация](https://docs.google.com/presentation/d/1C0SCmIOA3Y5PvG7eLGkWMhBXT_b3wb54HKbG_7_D1pk/edit#slide=id.g9f2439d07b_0_5)
+#### Lesson 1 / [Homework](https://github.com/Mybono/java_auto_test/blob/master/lesson_1.rar) / [ReadMe](https://docs.google.com/document/d/1qQQpqAhP8xGnzGrPBHibUkg8CAS1ZKZ3m5uQBN_DXBU/edit#) / [Презентация](https://docs.google.com/presentation/d/1C0SCmIOA3Y5PvG7eLGkWMhBXT_b3wb54HKbG_7_D1pk/edit#slide=id.g9f2439d07b_0_5)
 - На этом уроке
 - Узнаем, что такое Selenium WebDriver.
 - Познакомимся с Selenium IDE.
