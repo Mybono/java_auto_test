@@ -9,7 +9,7 @@
 - Познакомимся с Selenium IDE.
 - Поговорим о создании Test Project и Test Case.
 - Научимся создавать проекты.
-#### Lesson 2 / [Homework]() / [ReadMe]()
+#### Lesson 2 / [Homework](https://github.com/Mybono/java_auto_test/blob/master/pom.xml) / [ReadMe]()
 - Создание проекта с архетипом
 - описание всех каталогов
 - Файл POM
@@ -31,7 +31,7 @@
 
 
 
-![visitors](https://visitor-badge.glitch.me/badge?page_id=https://github.com/Mybono/web_test_automation_java)
+![visitors](https://visitor-badge.glitch.me/badge?page_id=https://github.com/Mybono/java_auto_test)
 
 
 [telegram]: https://t.me/def4get
