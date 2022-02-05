@@ -3,25 +3,47 @@
 
 <img align="right" alt="GIF" src="https://raw.githubusercontent.com/rahul-jha98/rahul-jha98/main/techstack.gif" width="360px"/>
 
-#### Lesson 1 / [Homework](https://github.com/Mybono/java_auto_test/blob/master/lesson_1.rar) / [ReadMe](https://docs.google.com/document/d/1qQQpqAhP8xGnzGrPBHibUkg8CAS1ZKZ3m5uQBN_DXBU/edit#) / [Презентация](https://docs.google.com/presentation/d/1C0SCmIOA3Y5PvG7eLGkWMhBXT_b3wb54HKbG_7_D1pk/edit#slide=id.g9f2439d07b_0_5)
+#### Lesson 1 / [Homework](https://github.com/Mybono/web_test_automation_java/blob/main/lesson1.md) / [ReadMe](https://docs.google.com/document/d/1qQQpqAhP8xGnzGrPBHibUkg8CAS1ZKZ3m5uQBN_DXBU/edit#) / [Презентация](https://docs.google.com/presentation/d/1C0SCmIOA3Y5PvG7eLGkWMhBXT_b3wb54HKbG_7_D1pk/edit#slide=id.g9f2439d07b_0_5) / [Video](https://youtu.be/BNUkXyqy5Ao)
 - На этом уроке
 - Узнаем, что такое Selenium WebDriver.
 - Познакомимся с Selenium IDE.
 - Поговорим о создании Test Project и Test Case.
 - Научимся создавать проекты.
-#### Lesson 2 / [Homework](https://github.com/Mybono/java_auto_test/blob/master/pom.xml) / [ReadMe]()
+#### Lesson 2 / [Homework]() / [ReadMe](https://docs.google.com/document/d/1krCrvT9nksdl5diHcpqj1Q9ER6ujQs_iB8FnW_rWRBQ/edit#) / [Video](https://youtu.be/-1eJjeTLYfY)
 - Создание проекта с архетипом
 - описание всех каталогов
 - Файл POM
 - Жизненный цикл сборки
-- 
-- 
-#### Lesson 3 / [Homework]() / [ReadMe]() 
-#### Lesson 4 / [Homework]() / [ReadMe]() 
-#### Lesson 5 / [Homework]() / [ReadMe]() 
-#### Lesson 6 / [Homework]() / [ReadMe]() 
-#### Lesson 7 / [Homework]() / [ReadMe]() 
-#### Lesson 8 / [Homework]() / [ReadMe]() 
+#### Lesson 3 / [Homework]() / [ReadMe](https://docs.google.com/document/d/1QJEcPxJu9ZYmcZuad7gIPjZ8XHss0wYTQ4rJjnPcCUI/edit#heading=h.gjdgxs) / [Video](https://youtu.be/nKWZpsD-wB4)
+- Добавление зависимостей в проект
+    - Установка конкретного драйвера
+    - Использование WebDriverManager
+- Поиск элементов
+- Использование WebDriver
+    - Основные методы драйвера
+    - Взаимодействие с элементами
+- Ожидания
+    - Неявные ожидания
+    - Явные ожидания
+#### Lesson 4 / [Homework]() / [ReadMe](https://docs.google.com/document/d/1nXYpcdKVKcjFU3Npo636xbgv0qlUH0CCX0bhOvz8hU0/edit#heading=h.gjdgxs)
+- Знакомство с JUnit
+    - Обзор
+    - Зависимости и настройка
+- Написание тестов
+    - Аннотации JUnit
+        - Параметризованные тесты
+            - Пример с Enum
+            - Пример с источником данных
+        - Подготовка данных
+        - Зависимые тесты
+        - Расширения
+    - Утверждения (Assertions)
+    - Предположения
+    - Исключения
+#### Lesson 5 / [Homework]() / [ReadMe]()
+#### Lesson 6 / [Homework]() / [ReadMe]()
+#### Lesson 7 / [Homework]() / [ReadMe]()
+#### Lesson 8 / [Homework]() / [ReadMe]()
 
 
 
