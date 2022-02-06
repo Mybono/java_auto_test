@@ -26,6 +26,7 @@ public class Address_add {
         driver.manage().window().maximize();
 
         driver.get("http://automationpractice.com/index.php");
+
         // login
         driver.findElement(By.xpath("//a[@title=\"Log in to your customer account\"]")).click();
         driver.findElement(By.xpath("//input[@name=\"email\"]")).sendKeys("test777@test.com");
@@ -62,8 +63,9 @@ public class Address_add {
         // delete new address
         driver.findElement(By.xpath("//div[@class=\"addresses\"]//div[2]//a[@title=\"Delete\"]")).click();
         driver.switchTo().alert().accept();
-        driver.findElement(By.xpath("//a[@class=\"logout\"]")).click();
 
+        // exit
+        driver.findElement(By.xpath("//a[@class=\"logout\"]")).click();
         driver.quit();
     }
 }
