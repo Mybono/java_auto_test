@@ -14,7 +14,7 @@
 - описание всех каталогов
 - Файл POM
 - Жизненный цикл сборки
-#### Lesson 3 / [Homework]() / [ReadMe](https://docs.google.com/document/d/1QJEcPxJu9ZYmcZuad7gIPjZ8XHss0wYTQ4rJjnPcCUI/edit#heading=h.gjdgxs) / [Video](https://youtu.be/nKWZpsD-wB4)
+#### Lesson 3 / [Homework](https://github.com/Mybono/java_auto_test/blob/master/hw3.md) / [ReadMe](https://docs.google.com/document/d/1QJEcPxJu9ZYmcZuad7gIPjZ8XHss0wYTQ4rJjnPcCUI/edit#heading=h.gjdgxs) / [Video](https://youtu.be/nKWZpsD-wB4)
 - Добавление зависимостей в проект
     - Установка конкретного драйвера
     - Использование WebDriverManager
