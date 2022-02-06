@@ -35,12 +35,9 @@ public class Add_2_cart {
         driver.findElement(By.xpath("//a[@title=\"Home\"]")).click();
 
         driver.findElement(By.xpath("//a[@title=\"Women\"]")).click();
-
-//        JavascriptExecutor jse = (JavascriptExecutor)driver;
-//        jse.executeScript("window.scrollBy(0,document.body.scrollHeight)");
-
         driver.findElement(By.xpath("//a[@title=\"All specials\"]")).click();
         driver.findElement(By.xpath("//ul[@class=\"product_list grid row\"]/li[1]")).click();
+
         // add to cart
         driver.findElement(By.xpath("//button[@class=\"exclusive\"]")).click();
 
@@ -63,6 +60,7 @@ public class Add_2_cart {
 //        driver.findElement(By.xpath("//a[@title=\"Pay by bank wire\"]")).click();
 //        driver.findElement(By.xpath("//p//button[@type=\"submit\"]")).click();
 //        driver.findElement(By.xpath("//a[@title=\"Sign out\"]")).click();
+        driver.findElement(By.xpath("//a[@class=\"logout\"]")).click();
         driver.quit();
     }
 }

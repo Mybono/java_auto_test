@@ -26,10 +26,10 @@ public class New_wishlist {
         driver.findElement(By.xpath("//a[@title=\"Log in to your customer account\"]")).click();
         driver.findElement(By.xpath("//input[@name=\"email\"]")).sendKeys("test777@test.com");
         driver.findElement(By.xpath("//input[@name=\"passwd\"]")).sendKeys("123456");
-        driver.findElement(By.xpath("//button[@id=\"SubmitLogin\"]")).click();
+        driver.findElement(By.id("SubmitLogin")).click();
 
         driver.findElement(By.xpath("//a[@title=\"My wishlists\"]")).click();
-        driver.findElement(By.xpath("//input[@id=\"name\"]")).sendKeys("NewList");
+        driver.findElement(By.id("name")).sendKeys("NewList");
         driver.findElement(By.id("submitWishlist")).click();
         driver.findElement(By.xpath("//i[@class=\"icon-remove\"]")).click();
         driver.switchTo().alert().accept();
