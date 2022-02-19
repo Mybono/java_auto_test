@@ -1,4 +1,4 @@
-package org;
+package geekbrains.webui.lesson_5;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.By;
@@ -26,20 +26,21 @@ public class Address_add {
         driver.manage().window().maximize();
 
         driver.get("http://automationpractice.com/index.php");
+
         // login
         driver.findElement(By.xpath("//a[@title=\"Log in to your customer account\"]")).click();
         driver.findElement(By.xpath("//input[@name=\"email\"]")).sendKeys("test777@test.com");
         driver.findElement(By.xpath("//input[@name=\"passwd\"]")).sendKeys("123456");
-        driver.findElement(By.xpath("//button[@id=\"SubmitLogin\"]")).click();
+        driver.findElement(By.id("SubmitLogin")).click();
 
         driver.findElement(By.xpath("//a[@title=\"Addresses\"]")).click();
         driver.findElement(By.xpath("//a[@title=\"Add an address\"]")).click();
 
         // add new address
-        driver.findElement(By.xpath("//input[@id=\"firstname\"]")).click();
-        driver.findElement(By.xpath("//input[@id=\"lastname\"]")).click();
-        driver.findElement(By.xpath("//input[@id=\"address1\"]")).sendKeys("NewAddress");
-        driver.findElement(By.xpath("//input[@id=\"city\"]")).sendKeys("NewCity");
+        driver.findElement(By.id("firstname")).click();
+        driver.findElement(By.id("lastname")).click();
+        driver.findElement(By.id("address1")).sendKeys("NewAddress");
+        driver.findElement(By.id("city")).sendKeys("NewCity");
 
         driver.findElement(By.id("id_state")).click();
         {
@@ -47,23 +48,25 @@ public class Address_add {
             dropdown.findElement(By.xpath("//option[. = 'California']")).click();
         }
 
-        driver.findElement(By.xpath("//input[@id=\"postcode\"]")).sendKeys("00000");
-        driver.findElement(By.xpath("//input[@id=\"phone\"]")).sendKeys("78787878");
-        driver.findElement(By.xpath("//input[@id=\"phone_mobile\"]")).sendKeys("56565656");
+        driver.findElement(By.id("postcode")).sendKeys("00000");
+        driver.findElement(By.id("phone")).sendKeys("78787878");
+        driver.findElement(By.id("phone_mobile")).sendKeys("56565656");
 
-        WebElement element = driver.findElement(By.xpath("//input[@id=\"alias\"]"));
+        WebElement element = driver.findElement(By.xpath("alias"));
+
         ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", element);
-        Thread.sleep(500);
-        driver.findElement(By.xpath("//input[@id=\"alias\"]")).clear();
-        driver.findElement(By.xpath("//input[@id=\"alias\"]")).sendKeys("NewAddress");
+        Thread.sleep(5000);
+        driver.findElement(By.id("alias")).clear();
+        driver.findElement(By.id("alias")).sendKeys("NewAddress");
 
-        driver.findElement(By.xpath("//button[@id=\"submitAddress\"]")).click();
+        driver.findElement(By.id("submitAddress")).click();
 
         // delete new address
         driver.findElement(By.xpath("//div[@class=\"addresses\"]//div[2]//a[@title=\"Delete\"]")).click();
         driver.switchTo().alert().accept();
-        driver.findElement(By.xpath("//a[@class=\"logout\"]")).click();
 
+        // exit
+        driver.findElement(By.xpath("//a[@class=\"logout\"]")).click();
         driver.quit();
     }
 }
