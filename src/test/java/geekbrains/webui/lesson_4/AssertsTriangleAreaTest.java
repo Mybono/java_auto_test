@@ -80,5 +80,4 @@ public class AssertsTriangleAreaTest {
         assertThat(a + c, greaterThanOrEqualTo (b));
         assertThat(b + c, greaterThanOrEqualTo (a));
     }
-
 }
