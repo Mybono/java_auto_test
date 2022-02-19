@@ -1,29 +1,20 @@
-//package geekbrains.webui.lesson_5;
+//package geekbrains.webui.lesson_3;
 //
-//import org.junit.jupiter.api.Assertions;
-//import org.junit.jupiter.api.DisplayName;
-//import org.junit.jupiter.api.Order;
-//import org.junit.jupiter.api.Test;
+//import org.junit.jupiter.api.*;
 //import org.openqa.selenium.By;
-//import org.openqa.selenium.support.ui.ExpectedConditions;
-//import org.openqa.selenium.support.ui.WebDriverWait;
-//
-//import java.time.Duration;
 //
 //public class Add2cartTEST extends AbstractStart {
 //
-//    UserLoginTest user_login = new UserLoginTest();
+//    User_loginTest user_login = new User_loginTest();
 //
 //    @Test
 //    @DisplayName("Login")
-//    @Order(1)
 //    public void login(){
 //        user_login.user_login();
 //    }
 //
 //    @Test
 //    @DisplayName("add to card")
-//    @Order(2)
 //    void add2Cart() {
 //        getDriver().findElement(By.xpath("//a[@title=\"Women\"]")).click();
 //        getDriver().findElement(By.xpath("//a[@title=\"All specials\"]")).click();

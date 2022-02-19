@@ -1,4 +1,4 @@
-package geekbrains.webui.lesson_5;
+package geekbrains.webui.lesson_3;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.By;

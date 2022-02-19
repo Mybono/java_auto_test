@@ -1,4 +1,4 @@
-package geekbrains.webui.lesson_5;
+package geekbrains.webui.lesson_3;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.junit.jupiter.api.AfterAll;
@@ -16,13 +16,13 @@ public class AbstractStart {
     private static WebDriver driver;
 
     @BeforeAll
-    static void init(){
+    static void init() {
         WebDriverManager.firefoxdriver().setup();
         FirefoxOptions options = new FirefoxOptions();
         options.addArguments("--incognito");
-        options.addArguments ("--disable-extensions");
-        options.addArguments ("--incognito");
-        options.addArguments ("disable-popup-blocking");
+        options.addArguments("--disable-extensions");
+        options.addArguments("--incognito");
+        options.addArguments("disable-popup-blocking");
         driver = new FirefoxDriver(options);
         driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
 
@@ -31,17 +31,13 @@ public class AbstractStart {
     }
 
 //    @AfterAll
-//    static void close(){
-////        driver.findElement(By.xpath("//a[@class=\"logout\"]")).click();
-////        driver.quit();
+//    static void close()
+//    {
+//        driver.findElement(By.xpath("//a[@class=\"logout\"]")).click();
+//        driver.quit();
 //    }
 
     public static WebDriver getDriver() {
         return driver;
     }
 }
-//    @AfterAll
-//    static void close(){
-////        driver.findElement(By.xpath("//a[@class=\"logout\"]")).click();
-////        driver.quit();
-//    }
