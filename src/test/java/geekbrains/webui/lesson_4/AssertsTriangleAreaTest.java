@@ -53,6 +53,7 @@ public class AssertsTriangleAreaTest {
         Assertions.assertThrows(MyException.class,()-> exampleClass.triangleArea(-10,20,10));
         Assertions.assertThrows(MyException.class,()-> exampleClass.triangleArea(10,-20,10));
         Assertions.assertThrows(MyException.class,()-> exampleClass.triangleArea(10,20,-10));
+
     }
 
     @ParameterizedTest
