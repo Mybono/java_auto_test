@@ -1,15 +1,11 @@
-package geekbrains.webui.lesson_3;
+package geekbrains.webui.lesson_5;
 
-import com.github.javafaker.service.FakeValuesService;
-import com.github.javafaker.service.RandomService;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-
-import java.util.Locale;
 
 public class NewsLetterTest extends AbstractStart {
 

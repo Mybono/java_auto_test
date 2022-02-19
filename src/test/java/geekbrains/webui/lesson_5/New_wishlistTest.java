@@ -1,4 +1,4 @@
-package geekbrains.webui.lesson_3;
+package geekbrains.webui.lesson_5;
 
 import org.junit.jupiter.api.*;
 import org.openqa.selenium.By;
