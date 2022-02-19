@@ -1,4 +1,4 @@
-//package geekbrains.webui.lesson_5;
+//package geekbrains.webui.lesson_3;
 //
 //import org.junit.jupiter.api.Test;
 //import org.openqa.selenium.By;

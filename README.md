@@ -40,7 +40,7 @@
     - Утверждения (Assertions)
     - Предположения
     - Исключения
-#### Lesson 5 / [Homework]() / [ReadMe]()
+#### Lesson 5 / [Homework]() / [ReadMe]() / [Video](https://youtu.be/vfoWMbxE1pc)
 - Класс Actions — сложные взаимодействия 
 - Исполнение JavaScript-кода 
 - Подробнее о работе с окнами
