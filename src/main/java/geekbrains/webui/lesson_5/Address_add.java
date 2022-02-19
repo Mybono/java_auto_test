@@ -1,4 +1,4 @@
-package org;
+package geekbrains.webui.lesson_5;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.By;
@@ -52,9 +52,10 @@ public class Address_add {
         driver.findElement(By.id("phone")).sendKeys("78787878");
         driver.findElement(By.id("phone_mobile")).sendKeys("56565656");
 
-        WebElement element = driver.findElement(By.id("alias"));
+        WebElement element = driver.findElement(By.xpath("alias"));
+
         ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", element);
-        Thread.sleep(500);
+        Thread.sleep(5000);
         driver.findElement(By.id("alias")).clear();
         driver.findElement(By.id("alias")).sendKeys("NewAddress");
 

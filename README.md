@@ -25,7 +25,7 @@
 - Ожидания
     - Неявные ожидания
     - Явные ожидания
-#### Lesson 4 / [Homework]() / [ReadMe](https://docs.google.com/document/d/1nXYpcdKVKcjFU3Npo636xbgv0qlUH0CCX0bhOvz8hU0/edit#heading=h.gjdgxs)
+#### Lesson 4 / [Homework]() / [ReadMe](https://docs.google.com/document/d/1kn3o_AsxfAgrJW-g74b_-zaRkSXYXAv2PGlpD4gWR8E/edit) / [Video](https://youtu.be/mgcQdf-zSXE)
 - Знакомство с JUnit
     - Обзор
     - Зависимости и настройка
@@ -41,7 +41,15 @@
     - Предположения
     - Исключения
 #### Lesson 5 / [Homework]() / [ReadMe]()
-#### Lesson 6 / [Homework]() / [ReadMe]()
+- Класс Actions — сложные взаимодействия 
+- Исполнение JavaScript-кода 
+- Подробнее о работе с окнами
+  - Работа с окнами браузера
+  - Работа с фреймами
+- Работа с файлами cookie
+  - Тесты
+
+#### Lesson 6 / [Homework]() / [ReadMe]() / [Video](https://youtu.be/wBATJwzUn8c) 
 #### Lesson 7 / [Homework]() / [ReadMe]()
 #### Lesson 8 / [Homework]() / [ReadMe]()
 
