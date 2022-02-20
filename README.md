@@ -25,7 +25,7 @@
 - Ожидания
     - Неявные ожидания
     - Явные ожидания
-#### Lesson 4 / [Homework]() / [ReadMe](https://docs.google.com/document/d/1kn3o_AsxfAgrJW-g74b_-zaRkSXYXAv2PGlpD4gWR8E/edit) / [Video](https://youtu.be/mgcQdf-zSXE)
+#### Lesson 4 / [Homework](https://github.com/Mybono/java_auto_test/blob/master/hw4.md) / [ReadMe](https://docs.google.com/document/d/1kn3o_AsxfAgrJW-g74b_-zaRkSXYXAv2PGlpD4gWR8E/edit) / [Video](https://youtu.be/mgcQdf-zSXE)
 - Знакомство с JUnit
     - Обзор
     - Зависимости и настройка
@@ -40,7 +40,7 @@
     - Утверждения (Assertions)
     - Предположения
     - Исключения
-#### Lesson 5 / [Homework]() / [ReadMe]() / [Video](https://youtu.be/vfoWMbxE1pc)
+#### Lesson 5 / [Homework](https://github.com/Mybono/java_auto_test/blob/master/hw5.md) / [ReadMe](https://docs.google.com/document/d/1B19u7lSlRF1cuQUdS8ujHUou7Rtg17uMPJC9xb3PnLg/edit) / [Презентация](https://docs.google.com/presentation/d/1jsjmHMXJQYfQeUqdHzkC7uvQKWV5U44ofYrIkm4VhUw/edit#slide=id.p) / [Video](https://youtu.be/vfoWMbxE1pc)
 - Класс Actions — сложные взаимодействия 
 - Исполнение JavaScript-кода 
 - Подробнее о работе с окнами
@@ -49,9 +49,42 @@
 - Работа с файлами cookie
   - Тесты
 
-#### Lesson 6 / [Homework]() / [ReadMe]() / [Video](https://youtu.be/wBATJwzUn8c) 
-#### Lesson 7 / [Homework]() / [ReadMe]()
-#### Lesson 8 / [Homework]() / [ReadMe]()
+#### Lesson 6 / [Homework]() / [ReadMe](https://docs.google.com/document/d/1r_qsHO2x9I5pXyqbr-WH8qYSDak71oxTRMBqOIvvu7A/edit) / [Video](https://youtu.be/wBATJwzUn8c) 
+##### На этом уроке узнаем: 
+- что такое паттерн проектирования. 
+- рассмотрим принципы разработки ПО (DRY, KISS). 
+- Разберём, как это работает в написании автотестов. 
+- Выясним, почему Page Object — самый распространённый паттерн.
+
+##### Оглавление
+- Рефакторинг тестов 
+- Page Object 
+  - Текучий интерфейс 
+- PageFactory 
+- Практическое задание 
+- Дополнительная информация 
+- Используемые источники
+
+#### Lesson 7 / [Homework]() / [ReadMe](https://docs.google.com/document/d/1cjwXf5kxJK2PHaDaKAOTAkPlbul6Pk3qMiOTLxoIXl0/edit#heading=h.26in1rg) / [Презентация](https://docs.google.com/presentation/d/1o7gv8MO6Wf2ZF0hFtvMN-7r9cGNBXdRPFM-mXndYajE/edit#slide=id.p) / [Video]()
+##### На этом уроке узнаем, что такое:
+- Allure. 
+- Разберём протоколирование и наблюдение за действиями драйвера. 
+- Рассмотрим получение доступа к логам браузера.
+
+##### Оглавление
+- Зачем и для чего Allure 
+  - Подключение к проекту 
+  - Использование аннотаций 
+  - Получение отчётов 
+- Протоколирование действий 
+  - Сохранение скриншота при получении исключения 
+- Логи браузера 
+- Практическое задание 
+- Дополнительные материалы 
+- Используемая литература
+
+
+#### Lesson 8 / [Homework]() / [ReadMe]() / [Презентация]() / [Video]()
 
 
 
