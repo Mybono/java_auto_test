@@ -24,23 +24,15 @@ public class ContactUsTest extends AbstractStart {
             dropdown.findElement(By.xpath("//option[. = 'Webmaster']")).click();
         }
 
+        logger.info("Fill the form");
         getDriver().findElement(By.id("email")).sendKeys("test@test.com");
         getDriver().findElement(By.id("id_order")).sendKeys("no order");
-
-
-//        {
-//            WebElement dropdown = getDriver().findElement(By.id("id_order"));
-//            dropdown.findElement(By.xpath("//option[. = 'XXOEWHPNF - 02/06/2022']")).click();
-//        }
-//        getDriver().findElement(By.id("id_product")).click();
-//        {
-//            WebElement dropdown = getDriver().findElement(By.id("id_product"));
-//            dropdown.findElement(By.xpath("//option[. = 'Printed Dress - Color : Beige, Size : S']")).click();
-//        }
-
         getDriver().findElement(By.id("message")).sendKeys("WHY???!!!");
+
+        logger.info("Send MSG");
         getDriver().findElement(By.id("submitMessage")).click();
 
-        getDriver().quit();
+        Assertions.assertEquals("Your message has been successfully sent to our team.", getDriver().findElement(By.xpath("//p[@class = 'alert alert-success']")).getText());
+
     }
 }

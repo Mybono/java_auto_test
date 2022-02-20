@@ -17,13 +17,11 @@ public class NewsLetterTest extends AbstractStart {
     @DisplayName("NewsLetterTest")
     void newsLetter() {
         logger.info("contactUs");
-
         getDriver().findElement(By.id("newsletter-input")).sendKeys("test@test.com");
         getDriver().findElement(By.xpath("//button[@name = \"submitNewsletter\"]")).click();
+
+        Assertions.assertEquals("Newsletter : This email address is already registered.", getDriver().findElement(By.xpath("//*[@class=\"alert alert-danger\"]")).getText());
         Assertions.assertEquals("My Store", getDriver().getTitle());
-
-        getDriver().quit();
-
 
     }
 }

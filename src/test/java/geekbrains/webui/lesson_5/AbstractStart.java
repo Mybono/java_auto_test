@@ -1,6 +1,7 @@
 package geekbrains.webui.lesson_5;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
+import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeAll;
 import org.openqa.selenium.WebDriver;
@@ -27,12 +28,11 @@ public class AbstractStart {
                 "Страница не доступна");
     }
 
-//    @AfterAll
-//    static void close()
-//    {
-//        driver.findElement(By.xpath("//a[@class=\"logout\"]")).click();
-//        driver.quit();
-//    }
+    @AfterAll
+    static void close()
+    {
+        driver.quit();
+    }
 
     public static WebDriver getDriver() {
         return driver;

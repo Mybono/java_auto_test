@@ -22,10 +22,9 @@ public class User_logoutTest extends AbstractStart {
         getDriver().findElement(By.id("SubmitLogin")).click();
         Assertions.assertEquals("My account - My Store", getDriver().getTitle());
 
-        logger.info("Logout TEST");
+        logger.info("Logout");
         getDriver().findElement(By.xpath("//a[@class=\"logout\"]")).click();
         Assertions.assertEquals("Login - My Store", getDriver().getTitle());
 
-        getDriver().quit();
     }
 }
