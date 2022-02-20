@@ -19,10 +19,8 @@ public class NewsLetterTest extends AbstractStart {
         logger.info("contactUs");
 
         getDriver().findElement(By.id("newsletter-input")).sendKeys("test@test.com");
-        Assertions.assertEquals("Newsletter : This email address is already registered.", getDriver().getTitle());
-
-
         getDriver().findElement(By.xpath("//button[@name = \"submitNewsletter\"]")).click();
+        Assertions.assertEquals("My Store", getDriver().getTitle());
 
         getDriver().quit();
 
