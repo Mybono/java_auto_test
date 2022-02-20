@@ -9,12 +9,6 @@ package geekbrains.webui.lesson_4;
         import org.slf4j.Logger;
         import org.slf4j.LoggerFactory;
 
-        import static com.github.dockerjava.api.model.PortConfig.PublishMode.host;
-        import static org.hamcrest.CoreMatchers.*;
-        import static org.hamcrest.number.OrderingComparison.greaterThanOrEqualTo;
-        import static org.junit.Assert.*;
-        import static org.junit.Assume.assumeTrue;
-
 public class AssertsTriangleAreaTest {
     private static Logger logger = LoggerFactory.getLogger(AssertsTriangleAreaTest.class);
 
@@ -26,14 +20,14 @@ public class AssertsTriangleAreaTest {
         Assertions.assertEquals(11,exampleClass.triangleArea(6,6, 10));
     }
 
-    @ParameterizedTest
-    @DisplayName("Проверка на ожидание через CsvSource")
-    @CsvSource({ "10,10,15","5,5,5"})
-    void testWithCsvSource(int a, int b, int result) throws MyException {
-        logger.error("Проверка на ожидание через CsvSource", result);
-        TriangleArea exampleClass = new TriangleArea();
-        Assertions.assertEquals(result,exampleClass.triangleArea(a, b, result));
-    }
+//    @ParameterizedTest
+//    @DisplayName("Проверка на ожидание через CsvSource")
+//    @CsvSource({"10,10,15","5,5,5"})
+//    void testWithCsvSource(int a, int b, int result) throws MyException {
+//        logger.error("Проверка на ожидание через CsvSource", result);
+//        TriangleArea exampleClass = new TriangleArea();
+//        Assertions.assertEquals(result,exampleClass.triangleArea(a, b, result));
+//    }
 
     @ParameterizedTest
     @DisplayName("На отрицательное значения - через CsvSource")
@@ -63,9 +57,9 @@ public class AssertsTriangleAreaTest {
     void test2(int a, int b, int c) throws MyException {
         logger.info("Проверка на 0");
         TriangleArea exampleClass = new TriangleArea();
-        assertThat(a, is ( not (0)));
-        assertThat(b, is ( not (0)));
-        assertThat(c, is ( not (0)));;
+        Assertions.assertNotNull (a);
+        Assertions.assertNotNull (b);
+        Assertions.assertNotNull (c);;
     }
 
     @ParameterizedTest
@@ -75,10 +69,9 @@ public class AssertsTriangleAreaTest {
     void test3(int a, int b, int c) throws MyException {
         logger.info("Треугольник существует!");
         TriangleArea exampleClass = new TriangleArea();
-        assumeTrue(a + b > c);
-        assertThat(a + b, greaterThanOrEqualTo (c));
-        assertThat(a + c, greaterThanOrEqualTo (b));
-        assertThat(b + c, greaterThanOrEqualTo (a));
+        Assertions.assertTrue(a + b > c);
+        Assertions.assertTrue(a + c > c);
+        Assertions.assertTrue(c + b > c);
     }
 
 }
