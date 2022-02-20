@@ -1,4 +1,4 @@
-package geekbrains.webui.lesson_3;
+package geekbrains.webui.lesson_5;
 
 import org.junit.jupiter.api.*;
 import org.openqa.selenium.By;
@@ -15,7 +15,6 @@ public class New_wishlistTest extends AbstractStart {
     @DisplayName("Login")
     public void login()
     {
-        logger.info("Login");
         user_login.user_login();
     }
 
@@ -27,15 +26,16 @@ public class New_wishlistTest extends AbstractStart {
 
         Assertions.assertEquals("My Store", getDriver().getTitle());
 
+        logger.info("Create new wishlist");
         getDriver().findElement(By.id("name")).sendKeys("NewList");
         getDriver().findElement(By.id("submitWishlist")).click();
+
+        logger.info("Delete new wishlist");
         getDriver().findElement(By.xpath("//i[@class=\"icon-remove\"]")).click();
         getDriver().switchTo().alert().accept();
 
         logger.info("logout");
         getDriver().findElement(By.xpath("//a[@class=\"logout\"]")).click();
         Assertions.assertEquals("Login - My Store", getDriver().getTitle());
-
-        getDriver().quit();
     }
 }

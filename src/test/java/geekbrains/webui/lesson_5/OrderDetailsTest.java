@@ -1,4 +1,4 @@
-package geekbrains.webui.lesson_3;
+package geekbrains.webui.lesson_5;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
@@ -18,6 +18,7 @@ public class OrderDetailsTest extends AbstractStart {
     public void login()
     {
         user_login.user_login();
+        Assertions.assertEquals("My account - My Store", getDriver().getTitle());
     }
 
     @Test
@@ -34,7 +35,6 @@ public class OrderDetailsTest extends AbstractStart {
         getDriver().findElement(By.xpath("//a[@class=\"logout\"]")).click();
         Assertions.assertEquals("Order - My Store", getDriver().getTitle());
 
-        getDriver().quit();
     }
 }
 
