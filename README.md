@@ -64,7 +64,7 @@
 ![visitors](https://visitor-badge.glitch.me/badge?page_id=https://github.com/Mybono/java_auto_test)
 
 
-[telegram]: https://t.me/def4get
+[telegram]: https://t.me/Artur_QA
 [logotelegram]: https://github.com/Mybono/Mybono/blob/main/assets/telegran%2035%20px.png
 [linkedin]: http://linkedin.com/def-say-hello
 [logolinkedin]: https://github.com/Mybono/Mybono/blob/main/assets/linedin%2035px.png
