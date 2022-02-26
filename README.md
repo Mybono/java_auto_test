@@ -40,7 +40,7 @@
     - Утверждения (Assertions)
     - Предположения
     - Исключения
-#### Lesson 5 / [Homework]() / [ReadMe]() / [Video](https://youtu.be/vfoWMbxE1pc)
+#### Lesson 5 / [Homework]() / [ReadMe](https://docs.google.com/document/d/1B19u7lSlRF1cuQUdS8ujHUou7Rtg17uMPJC9xb3PnLg/edit) / [Video](https://youtu.be/vfoWMbxE1pc)
 - Класс Actions — сложные взаимодействия 
 - Исполнение JavaScript-кода 
 - Подробнее о работе с окнами
@@ -49,7 +49,7 @@
 - Работа с файлами cookie
   - Тесты
 
-#### Lesson 6 / [Homework]() / [ReadMe]() / [Video](https://youtu.be/wBATJwzUn8c) 
+#### Lesson 6 / [Homework]() / [ReadMe](https://docs.google.com/document/d/1r_qsHO2x9I5pXyqbr-WH8qYSDak71oxTRMBqOIvvu7A/edit) / [Video](https://youtu.be/wBATJwzUn8c) 
 #### Lesson 7 / [Homework]() / [ReadMe]()
 #### Lesson 8 / [Homework]() / [ReadMe]()
 
